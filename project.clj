@@ -5,6 +5,7 @@ that would enable groups to get coding quickly, and have something satisfying by
 
 The idea is that teams will start with demo.clj, and modify it. The aim is to implement 2 functions which will play a game of battleships. The 2 functions are for placing the ships at the
 beginning of the game, and then firing shots at the opponents ships. The winner is the player who sinks all of the opponent's ships first."
+
   :dependencies [[org.clojure/clojure "1.3.0"]
                  [ring/ring-core "1.0.0-beta2"]
                  [ring/ring-jetty-adapter "1.0.0-beta2"]
